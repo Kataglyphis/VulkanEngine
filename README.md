@@ -2,13 +2,22 @@
 
 <h1 align="center">
   <br>
-  <a href="https://jotrocken.blog/"><img src="" alt="OpenGLEngine" width="200"></a>
+  <a href="https://jotrocken.blog/"><img src="images/logo.png" alt="OpenGLEngine" width="200"></a>
   <br>
   Cataglyphis_Engine
   <br>
 </h1>
 
-<h4 align="center">A graphics engine built on top of OpenGL <a href="https://jotrocken.blog/" target="_blank"></a>.</h4>
+<h4 align="center">A graphics engine built on top of Vulkan <a href="https://jotrocken.blog/" target="_blank"></a>.</h4>
+
+<p align="center">
+  <a href="https://jotrocken.blog/">
+      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+  </a>
+  <a href="https://www.paypal.me/">
+    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+  </a>
+</p>
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
@@ -27,6 +36,9 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+      </ul>
+      <ul>
+        <li><a href="#key-features">Key Features</a></li>
       </ul>
     </li>
     <li>
@@ -48,27 +60,21 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+There is a high demand in high-performance real-time graphic applications.
+With this project you get access to a tool enabling you to build such.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
-
-## Key Features
+### Key Features
 
 
-|          Feature           |   Implement Status | ◾ Other Configs |
-| -------------------------- | :----------------: | :-------------: |
-| Directional Lights         |         ✔️         |        ❌        |
-| Point Lights               |         ✔️         |        ❌        |
-| Spot Lights                |         ❌         |        ❌        |
+|          Feature                |   Implement Status | ◾ Other Configs |
+| --------------------------------| :----------------: | :-------------: |
+| Directional Lights              |         ✔️         |        ❌      |
+| Point Lights                    |         ✔️         |        ❌      |
+| Spot Lights                     |         ✔️         |        ❌      |
+| Directional Shadow Mapping      |         ✔️         |        ❌      |
+| Omni-Directional Shadow Mapping |         ✔️         |        ❌      |
 
 ### Built With
 
@@ -82,39 +88,22 @@ This section should list any major frameworks that you built your project using.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+You might only clone the repo and get to go immediately :)
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Right now everything is included. So after cloning you are ready to go :))
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone git@github.com:Kataglyphis/OpenGLEngine.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -123,7 +112,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+<!-- See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues). -->
 
 
 
@@ -143,35 +132,24 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Jonas Heinle - [@your_twitter](https://twitter.com/Cataglyphis_) - jonasheinle@googlemail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Kataglyphis/OpenGLEngine](https://github.com/Kataglyphis/OpenGLEngine)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
-
+* [Vulkan 1.2](https://www.khronos.org/vulkan/)
+* [GLM](https://github.com/g-truc/glm)
+* [GLFW](https://www.glfw.org/)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -187,5 +165,5 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/jonas-heinle-0b2a301a0/
 [product-screenshot]: images/screenshot.png
