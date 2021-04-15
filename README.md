@@ -11,10 +11,7 @@
 <h4 align="center">A graphics engine built on top of Vulkan <a href="https://jotrocken.blog/" target="_blank"></a>.</h4>
 
 <p align="center">
-  <a href="https://jotrocken.blog/">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
-  </a>
-  <a href="https://www.paypal.me/">
+  <a href="https://paypal.me/JonasHeinle?locale.x=de_DE">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
 </p>
@@ -60,7 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+[![Kataglyphis Engine][product-screenshot]](https://jotrocken.blog/)
 
 There is a high demand in high-performance real-time graphic applications.
 With this project you get access to a tool enabling you to build such.
@@ -70,19 +67,13 @@ With this project you get access to a tool enabling you to build such.
 
 |          Feature                |   Implement Status | ◾ Other Configs |
 | --------------------------------| :----------------: | :-------------: |
-| Directional Lights              |         ✔️         |        ❌      |
-| Point Lights                    |         ✔️         |        ❌      |
-| Spot Lights                     |         ✔️         |        ❌      |
-| Directional Shadow Mapping      |         ✔️         |        ❌      |
-| Omni-Directional Shadow Mapping |         ✔️         |        ❌      |
+| Very basic setup code           |         ✔️         |        ❌      |
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
-
+* [Vulkan 1.2](https://www.khronos.org/vulkan/)
+* [GLM](https://github.com/g-truc/glm)
+* [GLFW](https://www.glfw.org/)
 
 
 <!-- GETTING STARTED -->
@@ -98,20 +89,20 @@ Right now everything is included. So after cloning you are ready to go :))
 
 1. Clone the repo
    ```sh
-   git clone git@github.com:Kataglyphis/OpenGLEngine.git
+   git clone git@github.com:Kataglyphis/VulkanEngine.git
    ```
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://jotrocken.blog/)_
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
-
+Upcoming :)
 <!-- See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues). -->
 
 
@@ -141,15 +132,12 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
 Jonas Heinle - [@your_twitter](https://twitter.com/Cataglyphis_) - jonasheinle@googlemail.com
 
-Project Link: [https://github.com/Kataglyphis/OpenGLEngine](https://github.com/Kataglyphis/OpenGLEngine)
+Project Link: [https://github.com/Kataglyphis/VulkanEngine](https://github.com/Kataglyphis/OpenGLEngine)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Vulkan 1.2](https://www.khronos.org/vulkan/)
-* [GLM](https://github.com/g-truc/glm)
-* [GLFW](https://www.glfw.org/)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -166,4 +154,4 @@ Project Link: [https://github.com/Kataglyphis/OpenGLEngine](https://github.com/K
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jonas-heinle-0b2a301a0/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/Screenshot.png

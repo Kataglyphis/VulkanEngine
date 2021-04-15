@@ -20,7 +20,9 @@ int main() {
 	window->init_window("Gothic Remake", 800, 600);
 
 	//create instance of vulkan renderer
-	vulkan_renderer.init(window);
+	if (vulkan_renderer.init(window) == EXIT_FAILURE) {
+		return EXIT_FAILURE;
+	}
 
 	//loop 'til we close the window 
 	while (!glfwWindowShouldClose(window->main_window)) {
